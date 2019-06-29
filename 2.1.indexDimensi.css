@@ -4,3 +4,5 @@ div{
     background-color: pink;
     overflow: auto;
 }
+/* jika menggunkan overflow hidden= maka konten yang keluar dari parentnya(div 200pxx200px) akan di sembunyikan
+    oerflow: scroll untuk memunculkan scroll entah konteh lebih atau muat*/
