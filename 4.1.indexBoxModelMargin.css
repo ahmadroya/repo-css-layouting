@@ -3,6 +3,8 @@
     width: 200px;
     height: 200px;
     background-color: lightgreen;
+    margin: 50px auto;
+    /* membri margin pada 4 sisi, OK */
 
 
     /* menambahkan satu persatu margin 
