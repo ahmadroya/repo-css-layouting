@@ -1,6 +1,10 @@
-div{
-    width: 50%;
+.satu{
+    width: 200px;
     height: 200px;
-    background-color: lightgreen;
-    
+    background-color: pink;
+}
+.dua{
+    background-color: aqua;
+    width: 100%;
+
 }
