@@ -3,6 +3,8 @@
     width: 200px;
     height: 200px;
     background-color: lightgreen;
+    margin-left: auto;
+    margin-right: auto;
 
     /* menambahkan satu persatu margin 
     untuk melihat erubahan masing2 margin */
@@ -20,6 +22,8 @@
     width: 100px;
     height: 100px;
     background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
@@ -27,6 +31,8 @@
     width: 50px;
     height: 50px;
     background-color: violet;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
