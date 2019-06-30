@@ -47,9 +47,22 @@ body {
     /* untuk memberikan font standar, biasanya sandi kagali menggunakan 
         font: font/line head(jarak antar baris) jenis font   */
     background-color: #eaeaea;
+    /* latar abu2 */
+    color: #333;
+    /* warna font abu2 lbih tua*/
 }
 .container {
+    background-color: white;
     width: 800px;
     margin: auto;
+
+}
+.header {
+    padding: 20px;
+
+}
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
 
 }
