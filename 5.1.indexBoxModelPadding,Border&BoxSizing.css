@@ -3,10 +3,21 @@ div {
     margin: 10px auto;
 
 }
+/* lakukan perhitungan unt. menentukan widht yang pas
+  dgan tujuan untuk menyamakan ukuran conten*/
 .satu {
+    width: 570px;
+    /* di peroleh dari 600-(2*10)-(2*5)=570px */
     background-color: royalblue;
     padding: 10px;
+    border: 5px solid red;
+
 }
 .dua {
+    width: 520px;
+    /* diperoleh dari 600-(2*30)-(2*10)=520px */
     background-color: lightgreen;
+    padding: 30px;
+    border: 10px dashed orange;
+
 }
