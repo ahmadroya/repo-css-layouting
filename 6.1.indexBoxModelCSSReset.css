@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    /* * =selektor universal */
     /* dengan melakukan ini berarti kita telah melakukan reset pada property margin pada tag html */
     /* tag body secara default telah memiliki margin */
 }
