@@ -46,6 +46,7 @@ body {
     font: 16px/28px arial sans-serif;
     /* untuk memberikan font standar, biasanya sandi kagali menggunakan 
         font: font/line head(jarak antar baris) jenis font   */
+    background-color: #eaeaea;
 }
 .container {
     width: 800px;
