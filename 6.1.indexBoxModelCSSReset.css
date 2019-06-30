@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+    /* dengan melakukan ini berarti kita telah melakukan reset pada property margin pada tag html */
+    /* tag body secara default telah memiliki margin */
+}
+div {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+
+}
