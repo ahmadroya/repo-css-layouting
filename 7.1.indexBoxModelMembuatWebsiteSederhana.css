@@ -50,6 +50,7 @@ body {
     /* latar abu2 */
     color: #333;
     /* warna font abu2 lbih tua*/
+    background-image: url(7.1.img/sakura.png)
 }
 .container {
     background-color: white;
@@ -114,4 +115,12 @@ p.penulis a.nama {
 .content p {
     margin-bottom: 20px;
     font-size: 14px;
+}
+.footer {
+    background-color: #333;    
+}
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
 }
