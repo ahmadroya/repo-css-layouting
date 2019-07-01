@@ -66,3 +66,15 @@ body {
     font-weight: bold;
 
 }
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.header a {
+    /* tidak di buat spesifik karena hanya a hanya ada di ul li dan tidak ada di selainnya */
+    text-decoration: none;
+    /* ini unt. menghilangkan garis bawah pada default link */
+    
+
+}
