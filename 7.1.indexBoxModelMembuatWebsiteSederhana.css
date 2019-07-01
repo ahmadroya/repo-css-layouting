@@ -41,7 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* mulai css */
+/* ####### mulai css ##############################################################################################*/
 body {
     font: 16px/28px arial sans-serif;
     /* untuk memberikan font standar, biasanya sandi kagali menggunakan 
@@ -75,6 +75,10 @@ body {
     /* tidak di buat spesifik karena hanya a hanya ada di ul li dan tidak ada di selainnya */
     text-decoration: none;
     /* ini unt. menghilangkan garis bawah pada default link */
+    color: salmon;
+}
+/* gunakan pseudo class */
+.header a:hover {
+    color: lightskyblue;
     
-
 }
