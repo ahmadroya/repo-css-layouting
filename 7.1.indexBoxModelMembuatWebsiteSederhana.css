@@ -99,5 +99,15 @@ p.penulis a.nama {
     color: salmon;
 }
 .content {
-    padding: 20px
+    padding: 20px;
+}
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.content .penulis {
+    font-size: 11px;
+    margin-top: -10px;
+    
 }
