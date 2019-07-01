@@ -111,3 +111,7 @@ p.penulis a.nama {
     margin-top: -10px;
     
 }
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
