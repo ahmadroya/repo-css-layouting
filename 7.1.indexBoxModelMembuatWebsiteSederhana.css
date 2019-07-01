@@ -59,6 +59,7 @@ body {
 }
 .header {
     padding: 20px;
+    padding-bottom: 10px;
 
 }
 .header .judul {
@@ -90,5 +91,7 @@ body {
     background-size: cover;
     background-position: 0 -100px;
     border-top: 5px solid salmon;
+    border-bottom: 5px solid salmon;
+    
 
 }
