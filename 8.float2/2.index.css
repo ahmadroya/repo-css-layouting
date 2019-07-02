@@ -12,5 +12,7 @@
     background-color: salmon;
     text-align: center;
     line-height: 80px;
-    font-size: 30px  
+    font-size: 30px;
+    margin: 2px;
+    float: left;
 }
