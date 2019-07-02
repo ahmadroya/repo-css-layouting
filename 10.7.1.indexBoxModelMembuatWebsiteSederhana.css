@@ -99,23 +99,51 @@ p.penulis a.nama {
     text-decoration: none;
     color: salmon;
 }
-.content {
+.main {
+    width: 600px;
     padding: 20px;
+    box-sizing: border-box;
+    float: left;
 }
-.content h2 {
+.main h2 {
     font-size: 28px;
     font-weight: bold;
 
 }
-.content .penulis {
+.main .penulis {
     font-size: 11px;
     margin-top: -10px;
     
 }
-.content p {
+.main p {
     margin-bottom: 20px;
     font-size: 14px;
 }
+
+/* sidebar */
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+
+}
+.sidebar h3 {
+    font-weight: bold;
+    color: #666;
+
+}
+.sidebar img {
+    widows: 70px;
+    height: 70px;
+    float: left;
+    padding: 10px;
+
+}
+.sidebar p {
+    font: 12px/18px arial;
+    color: #666
+}
+
 .footer {
     background-color: #333;    
 }
@@ -124,3 +152,19 @@ p.penulis a.nama {
     text-align: center;
     font-size: 12px;
 }
+
+   /* ## Clear fix ## */
+ .cf:before,
+ .cf:after {
+     content: " "; 
+     display: table; 
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ .cf {
+     *zoom: 1;
+ }
+
