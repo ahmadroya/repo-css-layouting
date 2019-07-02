@@ -54,7 +54,7 @@ body {
 }
 .container {
     background-color: white;
-    width: 800px;
+    width: 960px;
     margin: auto;
 
 }
@@ -87,7 +87,7 @@ body {
 
 }
 .hero {
-    height: 300px;
+    height: 320px;
     background-image: url(7.1.img/1.png);
     background-size: cover;
     background-position: 0 -100px;
