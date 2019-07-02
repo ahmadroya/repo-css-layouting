@@ -16,7 +16,29 @@
     margin: 2px;
     float: right;
 }
-.clear {
-    clear: right;
-    
-}
+/* 
+  * Untuk browser modern
+  * 1. Konten ruang adalah salah satu cara untuk menghindari bug Opera saat
+  * Atribut contenteditable disertakan di mana pun dalam dokumen.
+  * Kalau tidak, itu menyebabkan ruang muncul di bagian atas dan bawah elemen
+  * yang diklarifikasi.
+  * 2. Penggunaan `table` daripada` block` hanya diperlukan jika menggunakan
+  * `: before` berisi margin atas elemen anak.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }
