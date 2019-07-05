@@ -9,6 +9,10 @@ div {
 }
 .dua {
     background-color: violet;
+    position: relative;
+    top: 30px;
+    left: 50px;
+
 }
 .tiga {
     background-color: gold;
