@@ -52,10 +52,23 @@ body {
     /* warna font abu2 lbih tua*/
     background-image: url(7.1.img/sakura.png)
 }
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: lightskyblue;
+    border-bottom: 3px solid salmon;
+    z-index: 9999;
+    /* angka di gunain yang agak besar unt menjadikannya berada di atas */
+
+}
 .container {
     margin: 80px auto;
     background-color: white;
     width: 960px;
+    position: relative;
 
 }
 .twitter {
@@ -64,12 +77,13 @@ body {
     background-image: url(7.1.img/twitterribbon200px.png);
     background-repeat: no-repeat;
     display: inline-block;
+    /* ubah display element a agar width dan height bekerja  */
     /* text indent beberapa browser tetap akan menampilkannya dengan scrollnya,
     jadi teknik ini hantya unt. latihan ini aja */
     text-indent: -99999px;
     position: absolute;
-    top: 57px;
-    right: 243px;
+    top: -23px;
+    right: -27px;
 }
 .header {
     padding: 20px;
