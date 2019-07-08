@@ -53,10 +53,23 @@ body {
     background-image: url(7.1.img/sakura.png)
 }
 .container {
+    margin: 80px auto;
     background-color: white;
     width: 960px;
-    margin: auto;
 
+}
+.twitter {
+    width: 200px;
+    height: 200px;
+    background-image: url(7.1.img/twitterribbon200px.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    /* text indent beberapa browser tetap akan menampilkannya dengan scrollnya,
+    jadi teknik ini hantya unt. latihan ini aja */
+    text-indent: -99999px;
+    position: absolute;
+    top: 57px;
+    right: 243px;
 }
 .header {
     padding: 20px;
