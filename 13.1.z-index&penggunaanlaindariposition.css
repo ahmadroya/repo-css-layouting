@@ -1,0 +1,18 @@
+div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.satu {
+    background-color: salmon;
+}
+.dua {
+    top: 100px;
+    left: 100px;
+    background-color: lightgreen;
+}
+.tiga {
+    top: 200px;
+    left: 200px;
+    background-color: royalblue;
+}
