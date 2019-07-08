@@ -43,3 +43,39 @@ table {
 }
 
 /* mulai */
+
+
+    coba beri warna pada baris menu
+
+.menubar ul li a {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ## Clear fix ## */
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
